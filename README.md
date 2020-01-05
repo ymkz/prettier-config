@@ -3,6 +3,9 @@
 > ymkz's prettier config
 
 <p>
+  <a href="https://github.com/ymkz/prettier-config" target="_blank" rel="noopener noreferrer">
+    <img src="https://flat.badgen.net/github/checks/ymkz/prettier-config?icon=github" />
+  </a>
   <a href="https://www.npmjs.com/package/@ymkz/prettier-config" target="_blank" rel="noopener noreferrer">
     <img src="https://flat.badgen.net/npm/v/@ymkz/prettier-config?icon=npm" />
   </a>
