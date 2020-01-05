@@ -1,0 +1,46 @@
+{
+  "name": "@ymkz/prettier-config",
+  "version": "1.0.0",
+  "description": "ymkz's prettier config",
+  "keywords": [
+    "ymkz",
+    "prettier",
+    "config"
+  ],
+  "homepage": "https://github.com/ymkz/prettier-config",
+  "bugs": {
+    "url": "https://github.com/ymkz/prettier-config/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ymkz/prettier-config"
+  },
+  "license": "MIT",
+  "author": {
+    "name": "ymkz",
+    "email": "ymkzly@gmail.com",
+    "url": "https://github.com/ymkz"
+  },
+  "files": [
+    "index.json"
+  ],
+  "main": "index.json",
+  "scripts": {
+    "release": "standard-version"
+  },
+  "devDependencies": {
+    "@commitlint/cli": "8.3.4",
+    "@commitlint/config-conventional": "8.3.4",
+    "husky": "3.1.0",
+    "lint-staged": "10.0.0-beta.14",
+    "sort-package-json": "1.36.0",
+    "standard-version": "7.0.1",
+    "yarnhook": "0.4.3"
+  },
+  "peerDependencies": {
+    "prettier": "1.19.1"
+  },
+  "publishConfig": {
+    "access": "public"
+  }
+}

@@ -1,0 +1,6 @@
+{
+  "editor.codeActionsOnSave": { "source.fixAll": true },
+  "editor.rulers": [100],
+  "eslint.enable": true,
+  "eslint.packageManager": "yarn"
+}

@@ -1,0 +1,6 @@
+{
+  "package.json": [
+    "sort-package-json",
+    "git add"
+  ]
+}
