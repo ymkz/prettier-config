@@ -22,7 +22,7 @@ Write the following code in `.prettierrc.json`
 "@ymkz/prettier-config"
 ```
 
-## Requirement
+## Requirements
 
 - `prettier` >= `1.19.1`
 
