@@ -3,9 +3,6 @@
 > ymkz's prettier config
 
 <p>
-  <a href="https://github.com/ymkz/prettier-config" target="_blank" rel="noopener noreferrer">
-    <img src="https://flat.badgen.net/github/checks/ymkz/prettier-config?icon=github" />
-  </a>
   <a href="https://twitter.com/ymkzly" target="_blank" rel="noopener noreferrer">
     <img src="https://flat.badgen.net/twitter/follow/ymkzly?icon=twitter" />
   </a>
@@ -19,7 +16,7 @@ yarn add --dev --exact @ymkz/prettier-config
 
 ## Usage
 
-Write the code below
+Write the following code in `.prettierrc.json`
 
 ```
 "@ymkz/prettier-config"
