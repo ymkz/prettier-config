@@ -9,9 +9,6 @@
   <a href="https://www.npmjs.com/package/@ymkz/prettier-config" target="_blank" rel="noopener noreferrer">
     <img src="https://flat.badgen.net/npm/license/@ymkz/prettier-config?icon=npm" />
   </a>
-  <a href="https://www.npmjs.com/package/@ymkz/prettier-config" target="_blank" rel="noopener noreferrer">
-    <img src="https://flat.badgen.net/npm/dy/@ymkz/prettier-config?icon=npm" />
-  </a>
   <a href="https://twitter.com/ymkzly" target="_blank" rel="noopener noreferrer">
     <img src="https://flat.badgen.net/twitter/follow/ymkzly?icon=twitter" />
   </a>
