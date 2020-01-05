@@ -1,6 +1,3 @@
 {
-  "package.json": [
-    "sort-package-json",
-    "git add"
-  ]
+  "package.json": ["sort-package-json"]
 }
