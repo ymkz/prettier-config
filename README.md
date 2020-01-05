@@ -17,7 +17,7 @@
 ## Install
 
 ```sh
-yarn add --dev --exact @ymkz/prettier-config
+yarn add --dev --exact prettier @ymkz/prettier-config
 ```
 
 ## Usage
