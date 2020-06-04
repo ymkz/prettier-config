@@ -1,0 +1,32 @@
+name: healthcheck-master
+on:
+  push:
+    branches:
+      - master
+env:
+  CI: true
+  TZ: Asia/Tokyo
+jobs:
+  dump:
+    runs-on: ubuntu-latest
+    steps:
+      - run: |
+          echo "node: `node --version`"
+          echo "npm:  v`npm --version`"
+          echo "yarn: v`yarn --version`"
+      - run: |
+          echo "CI: ${CI}"
+          echo "TZ: ${TZ}"
+      - run: date
+      - run: echo "${GITHUB_CONTEXT}"
+        env:
+          GITHUB_CONTEXT: ${{ toJson(github) }}
+  check:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+      - uses: actions/setup-node@v2-beta
+        with:
+          node-version: '12'
+      - uses: bahmutov/npm-install@master
+      - run: yarn run lint
